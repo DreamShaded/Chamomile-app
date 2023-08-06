@@ -1,0 +1,22 @@
+{
+  "name": "app-with-chamomile-ui",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "start": "npm run dev",
+    "build": "vue-tsc && vite build",
+    "postinstall": "npm i github:Dreamshaded/Chamomile-UI",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "Chamomile-UI": "github:Dreamshaded/Chamomile-UI",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.8",
+    "vue-tsc": "^1.8.8"
+  }
+}
