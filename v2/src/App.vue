@@ -1,14 +1,18 @@
 <template>
   <div class="page">
     <ChamomileInput
+      name="input"
+      id="input1"
+      :is-disabled="false"
+      type="text"
     />
     <ChamomileDatepicker
+      ...
     />
   </div>
 </template>
 
 <script setup lang="ts">
-import ChamomileInput from "Chamomile-UI/src/components/ChamomileInput.vue";
-import ChamomileDatepicker from "Chamomile-UI/src/components/ChamomileDatepicker.vue";
+import { ChamomileInput, ChamomileDatepicker }  from "Chamomile-UI";
 
 </script>
